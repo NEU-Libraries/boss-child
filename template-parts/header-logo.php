@@ -23,7 +23,7 @@ $elem = ( is_front_page() && is_home() ) ? 'h1' : 'h2';
 	<<?php echo $elem; ?> class="site-title">
 
 		<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-			<img src="<?php echo get_stylesheet_directory_uri() . '/images/global-logo.png'; ?>" title="Northeastern University Logo" alt="NEU logo" />
+			<img src="<?php echo get_stylesheet_directory_uri() . '/images/next-logo.png'; ?>" title="Northeastern University Logo" alt="NEU logo" />
 		</a>
 
 	</<?php echo $elem; ?>>
